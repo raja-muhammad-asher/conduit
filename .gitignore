@@ -2,6 +2,7 @@
 
 # dependencies
 /backend/node_modules
+/frontend/node_modules
 
 # testing
 
@@ -11,4 +12,8 @@
 
 # misc
 /backend/.env
+/frontend/.env
 .vscode
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
