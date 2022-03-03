@@ -5,7 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb"
+        "airbnb",
+        "plugin:react/jsx-runtime"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -18,7 +19,6 @@
         "react"
     ],
     "rules": {
-        "plugin:react/jsx-runtime": "extends",
         "linebreak-style": 0
     }
 }
